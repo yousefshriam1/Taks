@@ -1,0 +1,316 @@
+.container{
+    width:1200px;
+    margin:auto;
+    overflow: hidden;
+}
+nav{
+    background: #4c609e;
+    border-bottom: #2f3c8a;
+    padding:8px 0;
+}
+nav form{
+    position: relative;
+    margin-right: 276px;
+}
+nav .container > * {
+    display: inline-block
+}
+nav i{
+   color: #1a2947;
+   position: relative;
+   bottom: 5px
+}
+.custom-face{
+    color:#fff;
+    position: static;
+}
+nav input {
+    width:355px;
+    position: relative;
+    border-radius: 2px;
+    border:1px solid #2f3c8a;
+    padding:5px 0 6px 8px;
+    bottom: 5px
+}
+.custom-search{
+    position: absolute;
+    top: -4px;
+    right: 0px;
+    color: #777;
+    background: #f5f6f7;
+    padding: 6px 10px;
+}
+.custom-search:hover{
+    background:#4080ff;
+    color: #FFF;
+    cursor: pointer;
+}
+nav img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 4px;
+    border-radius: 50%
+}
+nav span{
+    color:#fff;
+    padding-right: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom:4px;
+    left: 5px;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding-right:20px;
+    position: relative;
+    bottom:4px
+}
+.make-post{
+    width:50%;
+    float:left;
+    border-radius: 2px
+    
+}
+.make-post ul{
+    list-style-type:none;
+    background:#f5f6f7;
+    padding: 10px;
+    border-bottom: 1px solid #e9ebee;
+    margin:0
+}
+.make-post ul li{
+    display: inline-block;
+    padding-right: 10px
+
+}
+.make-post ul li img{
+    width: 20px;
+    margin-right: 10px;
+}
+.make-post .in-your{
+    border-top:1px solid #e9ebee;
+    border:1px solid #e9ebee;
+    background:white;
+    position: relative;
+    height: 150px
+}
+.make-post .in-your .border{
+    width: 90%;
+    height: 61%;
+    border-bottom: 1px solid #e9ebee;
+    margin-left: 21px;
+}
+.make-post .in-your h3{
+    position: absolute;
+    top: 1px;
+    left:85px;
+    color:#74787ed4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold
+}
+.make-post .in-your img{
+    border-radius: 50%;
+    margin-top: 7px;
+    
+}
+.make-post .in-your .photo {
+    border-bottom: 1px solid #e9ebee;
+}
+.make-post .in-your .photo ul{
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    background:white;
+    border-bottom: none
+}
+.make-post .in-your .photo ul li{
+    background:#f5f6f7;
+    padding: 10px;
+    border-radius: 5px;
+    color:#4b4f56;
+    font-size: 22px;
+ 
+}
+.main{
+    overflow: hidden;
+}
+main .main .left-or{
+    float: left;
+    width: 22%;
+}
+
+main .main .left-or h2{
+    padding-left: 65px;
+    /* padding-bottom: 16px; */
+    font-size: 29px;
+    font-weight: normal;
+}
+main .main .left-or ul{
+    list-style-type: none;
+    margin-left: 35px;
+    font-size: 15px;
+    font-weight: normal;
+}
+main .main .left-or ul  .active{
+   padding-bottom: 30px
+}
+main .main .left-or ul  .active img{
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 6px;
+    margin-bottom: -5px;
+}
+main .main .left-or ul li{
+    padding-bottom: 5px
+}
+main .main .left-or ul img{
+    margin-right: 6px
+}
+main .main .left-or span{
+    padding-left: 72px;
+    color: #6b6d7b;
+    font-family: arial;
+    font-weight: bold;
+}
+main .main .left-or ul .last{
+    color:blue;
+    text-decoration: underline
+}
+main .main .make-post .post{
+    margin-top:31px;
+    border:1px solid #ddd;
+    position: relative;
+    height:200px
+}
+main .main .make-post .post img{
+    position: absolute;
+    border-radius: 50%;
+    top: 26px;
+    left: 12px;
+
+
+}
+main .main .make-post .post h2{
+    position: absolute;
+    left: 70px;
+    top: 14px;
+}
+main .main .make-post .post p{
+    position: absolute;
+    /* bottom: 10px; */
+    left: 70px;
+    top: 45px;
+    color:#666161
+}
+main .main .make-post .post .p{
+    top: 69px;
+    left: 10px;
+    font-size: 40px;
+    color: #000
+}
+main .main .make-post .post ul{
+    position: absolute;
+    bottom: 1px;
+    width: 97%;
+    border-bottom: none;
+    background: none;
+    border-top: 1px solid #ddd
+}
+main .main .make-post .post ul li{
+    display: inline-block;
+    width: 30%
+}
+main .main .make-post .post ul .active{
+    padding-left: 20px
+}
+main .main .make-post .post ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #2c2727;
+}
+main .main .make-post .post ul li a img{
+    position: static;
+}
+main .main .stories{
+    float: left;
+    width: 26;
+    margin-left: 10px;
+  
+
+}
+main .main .stories .add-stories{
+    width: 324px;
+    margin-top: 10px;
+    height: 426px;
+    position: relative;
+    border: 1px solid #ddd;
+}
+main .main .stories .add-stories .links{
+    position: absolute;
+    right: 16px;
+    top: 30px;
+
+
+}
+main .main .stories .add-stories .links a{
+    text-decoration: none;
+    color: #365899;
+    cursor: pointer;
+}
+main .main .stories .add-stories  h3:first-child
+{
+    padding-left: 10px;
+    padding-top: 11px;
+    color: #6b6d7b;
+    font-family: arial;
+    font-weight: bold;
+}
+/* main .main .stories .add-stories  ul {
+    list-style-type: none;
+    margin-left: 31px;
+}
+main .main .stories .add-stories  ul li h3{
+    margin-bottom: 0
+}
+main .main .stories .add-stories  ul li p
+{
+    margin-top: 0
+}
+main .main .stories .add-stories  ul li{
+    display:block;
+}
+main .main .stories .add-stories  ul .active img{
+    background: #ddd;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 44px;
+    width: 50px;
+
+} */
+main .main .stories .add-stories .parinet .active{
+    position: relative;
+    margin-left: 70px;
+}
+main .main .stories .add-stories .parinet .active .custom{
+    background: #ddd;
+    width:40px;
+    border-radius: 50%
+}
+main .main .stories .add-stories .parinet .active img{
+    position: absolute;
+    left: -45px;
+    position: absolute;
+    top: -4px;
+    right: 5px;
+    left: -58px;
+    border-radius: 50%
+}
+main .main .stories .add-stories .parinet .active a {
+    text-decoration: none;
+    color: #365899;
+    cursor: pointer;
+}

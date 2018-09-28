@@ -1,0 +1,160 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;    
+}
+body{
+    margin: 0;    
+}
+
+.container{
+    width:1200px;
+    margin: auto;
+    display: block
+}
+/* Start Header */
+header{
+    background:black
+}
+.nav{
+    height: 63px;
+
+}
+.nav  img{
+    height: 100%;
+    float: left;
+}
+
+header .nav ul{
+    list-style: none;
+    overflow: hidden;
+    color: white;
+    float: left;
+    margin: 0;
+    text-align: center
+}
+
+header .nav ul li{
+    
+    display: inline-block;
+    padding: 22px 10px;
+    cursor: pointer
+    
+}
+
+header .nav ul li.active{
+    background:#0079BB
+}
+/* End Header */
+/* Start Main */
+main{
+    margin-top:10px
+}
+.section {
+      margin-bottom: 30px
+}
+.section .heading{
+    float: left;
+    width: 70%;
+}
+ .section .heading .hello-world{
+    }
+
+.section .heading .hello-world h2{
+    font-size: 70px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom:7px;
+    margin-top: 10px
+}
+
+.section .heading .sub-heading .sublings{
+    width:31.3333%;
+    float: left;
+    padding:10px 10px;
+    margin:5px
+}
+.section .heading .sub-heading .sublings h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:30px;
+  
+}
+.section .heading .sub-heading .sublings button{
+padding:7px;
+background: transparent;
+border-radius:5px;
+font-size: 15px;
+border-color: #0079BB;
+cursor: pointer;
+transition: .2s all ease-in-out;
+}
+.section .heading .sub-heading .sublings button:hover{
+    background: #0079BB;
+    border-color: #0079BB;
+    transform: scale(   1.2, 1.2);  
+}
+.speical-heading{
+    position: relative;
+}
+.speical-heading:after{
+    content: "";
+    display: block;
+    position: absolute;
+    border: 1px solid #777;
+    width: 85px;
+    left: 1px;
+    top: 41px;
+
+}
+.section .heading .sub-heading .sublings p{
+    font-family: tahoma;
+   color:#0079BB;
+   padding-bottom: 5px
+}
+ main .section .links{
+    float:left;
+    width: 20%;
+    border: 1px solid #ddd;
+    margin-left: 10px
+}
+main .section .links ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ 
+    
+}
+main .section .links ul li{
+    border-bottom:1px solid #ddd;
+    padding: 10px;
+}
+main .section .links ul li:last-child{
+    border-bottom:0
+  
+}
+main .section .links ul li a{
+    text-decoration: none;
+    color:black;
+    background: transparent;
+    font-weight: bold
+}
+main .section .links ul li.active{
+    background:#0079BB
+}
+main .section .links ul li:hover{
+    background:#0079BB
+}
+/* End main */
+/* footer */
+footer{
+    height: 80px;
+    background: black;
+    text-align: center;
+    color: white;
+    line-height: 80px;
+    
+    
+}
+/* /footer */
+/* frame work */
+.clear-fix{
+clear: both;
+}

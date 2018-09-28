@@ -1,0 +1,214 @@
+.container{
+    width:458px;
+    margin: auto
+}
+.clear-fix{
+    clear: both;
+}
+body{
+    margin: 0;
+    padding:0;
+}
+nav{
+    height: 80px;
+    text-align: center
+}
+nav img{
+    height: 100%
+}
+main .main{
+    width:458px;
+    border:1px solid #e8e8e8;
+   }
+main .main .login-header{
+    border-bottom: 1px solid #e8e8e8;
+}
+main .main .login-header h5{
+    font-size: 25px;
+    margin: 0;
+    margin-top: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    padding-left: 34px;
+}
+main .main .login-header a{
+    float: right;
+    margin:21px 0;
+    padding-right: 45px;
+    text-decoration: none;
+    color:#008cff
+}
+main .main form{
+    text-align: center;
+    overflow: hidden;
+   
+}
+main .main form h3{
+    margin: 0;
+    float: left;
+    margin-left: 35px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    font-weight: normal;
+    color: #798196;
+    font-family:"Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
+    font-size:16px
+}
+main .main form input{
+    width: 80%;
+    padding: 8px;
+    border:1px solid #ddd;
+    border-radius: 1px
+}
+main .main form .Remember {
+    overflow: hidden;
+    padding-bottom: 20px;
+    padding-top:10px
+}
+main .main form .Remember input[type="radio"]{
+   width: 20px
+}
+main .main form  h5{
+    position: relative;
+}
+main .main form  h5::after{
+    width: 161px;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+    top: 15px;
+    right: 47px;
+    content: "";
+    
+}
+main .main form  h5 span
+{   color:#dedede;
+    font-size: 20px;
+}
+main .main form  h5::before{
+    top: 15px;
+    content: "";
+    left: 47px;
+    width: 161px;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+    
+}
+main .main form .Remember .s{
+    float: left;
+    padding-left: 31px;;
+    color: #798196;
+    font-family:"Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
+    font-size:15px;
+  
+}
+main .main form .Remember a{
+    float: right;
+    padding-right: 34px;
+    text-decoration: none;
+    color:#008cff;
+   
+
+}
+main .main form input[type="submit"]{
+    background: #008BFF;
+    color:#fff;
+    font-weight: bold;
+    font-size: 17px;
+   margin-bottom: 10px;
+}
+main .main form input[value="Login with Facebook"]{
+background:#39579a
+}
+main .main form .facebook{
+    position: relative;
+}
+main .main form .facebook img{
+    position: absolute;
+    top: 5px;
+    left: 115px;
+}
+main .main form input[value="Login with Amazon"]{
+    background:#fed86f;
+    color:#000;
+  
+}
+main .main form .amazon{
+    position: relative;
+}
+main .main form .amazon img{
+    position: absolute;
+    top: 5px;
+    left: 115px;
+}
+main .main form h4{
+    color:#a0a0a0;
+    font-weight: normal
+}
+main .main form input[value="Sign Up"]{
+    background: #f1f1f1;
+    color: #000;
+    margin-bottom: 50px
+}
+/* /main*/
+footer{
+    background: #f1f1f1;
+    width: 100%;
+    height: 120px;
+    margin-top: 22px;
+}
+footer .nav ul{
+    list-style: none;
+    /* padding-top: 48px; */
+    padding-left: 98px;
+
+}
+footer .nav ul li{
+    display: inline;
+    padding-right:5px;
+    color: #006fcc;
+    cursor: pointer;
+}
+footer .nav ul li::after{
+    content: " ";
+    display: inline;
+    border-right: 1px solid #888;
+    height: 10px;
+}
+ footer .nav ul li:last-child::after{
+     border-right: none
+ }
+ footer .navx ul{
+    list-style: none;
+    font-weight: bold;
+    padding-left: 98px;
+    margin:0;
+    padding-bottom: 20px
+
+}
+footer .navx ul li::after{
+    content: " ";
+    display: inline;
+    border-right: 1px solid #888;
+    height: 10px;
+}
+footer .navx ul li:last-child::after{
+    border-right: none
+}
+footer .navx ul li{
+    display: inline;
+    padding-right:5px;
+    color: #006fcc;
+    cursor: pointer;
+    font-family: sans-serif
+}
+footer h2{
+    margin: 0;
+    margin-bottom: 0;
+    margin-left: 97px;
+    font-size: 14px;
+    padding-top: 14px;
+    font-family: tahoma;
+    font-weight: bold;
+}

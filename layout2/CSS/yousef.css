@@ -1,0 +1,98 @@
+/* Start Header */
+/* Start Ul */
+header{
+    
+    margin-left:10px;
+    background:#888
+}
+header .logo{
+float:left;
+width: 20%;
+height: 80px
+
+}
+header .logo img{
+    height:100%;
+  
+}
+header nav ul{
+float:right;
+width:50%;
+margin-top: 25px;
+
+}
+header nav ul li{
+   display: inline;
+   padding:2px
+}
+
+/* end UL */
+/* end Header */
+/* Start Slider */
+#slider{
+    margin-top: 10px;
+    margin-left:10px
+}
+#slider .slider-image{
+    width: 30%;
+    height: 200px;
+    float:left;
+    margin-top: 10px;
+}
+
+#slider .slider-image img{
+    height: 100%
+}
+#slider .headline h2{
+    color:#333;
+}
+#slider .headline p{
+    color:#888;
+}
+#slider .headline{
+    width:60%;
+    float: right;
+    border:2px solid #ddd;
+    margin: 41px;
+    padding: 10px;
+}
+/* End Slider */
+/* Start Content */
+main .content h2{
+    color: #444;
+}
+main .content p{
+    color: #888;
+}
+.content{
+    width:32.3333%;
+    float:left;
+    border:1px solid #ddd;
+    margin-left: 7px;
+    margin-top:9px;
+    padding:1px
+}
+
+
+/* End Content */
+/* Start footer */
+footer{
+    height: 80px;
+    text-align: center;
+    line-height:20px
+}
+footer .copy{
+  
+    margin-left:10px;
+    margin-top: 10px;
+}
+
+footer .social ul{
+    list-style-type: none;
+    
+}
+footer .social ul li{
+    display: inline
+}
+
+/* End Footer */

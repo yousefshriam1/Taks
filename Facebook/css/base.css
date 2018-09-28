@@ -1,0 +1,175 @@
+body{
+    padding: 0;
+    margin:0
+}
+*{
+    box-sizing: border-box
+}
+.clear-fix{
+    clear: both
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+header{
+    background:#3B5998;
+    border-bottom: 1px solid #133783    
+}
+
+.nav .logo {
+    width: 50%;
+    height: 85px;
+    float: left;
+    color: white;
+    font-family: tahoma;
+    font-size: 19px;
+
+}
+.nav .logo h1{
+    padding-left: 3px;
+      margin: 0;
+    padding-top: 31px;
+}
+
+header .login{
+    float: left;
+    position: relative;
+    top: 16px;
+    left: 176px;
+   
+}
+header .login .email{
+    float: left;
+    padding-right: 20px;
+    color: white
+}
+
+header .login input{
+    margin-top: 2px;
+    border:1px solid #133783;
+    height: 20px;
+    width: 150px;
+    padding-bottom: 19px;
+}
+header .login .password{
+    float: left;
+    color: white
+}
+header .login .password a{
+    text-decoration: none;
+    color: #8fb1d8
+}
+header .login .login-button{
+    float: left;
+    padding-top: 18px;
+    padding-left: 15px;
+}
+header .login .login-button input{
+background:#4267b2;
+border:1px solid #29487d;
+border-radius: 2px;
+color: white;
+height: 20px;
+width: 50px
+}
+/* /End header */
+/* Start Main */
+main{
+    background:linear-gradient(#fff,#d9ddeb);
+}
+main .facebook-helps{
+    width: 60%;
+    float: left;
+   }
+main .facebook-helps p{
+    color:#0e385f;
+    font-size: 30px;
+    font-weight: 900
+}
+main .facebook-helps img{
+    width: 100%
+}
+.create-account {
+    width: 40%;
+    float: left;
+
+}
+.create-account h2{
+    font-size: 40px;
+    margin-bottom: 0
+}
+.create-account .free{
+    font-size: 20px;
+    margin-top: 12px;
+    font-weight: bold
+}
+.account input[type="text"]{
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    border:1px solid #bdc7d8;
+}
+.account input[type="tel"],
+.account input[type="password"]
+{
+    width: 75%;
+    padding:10px;
+    margin-bottom: 10px;
+    border:1px solid #bdc7d8;
+    border-radius: 5px;
+}
+.account label{
+    font-weight: bold;
+    font-size: 18px;
+ 
+}
+.account input[type="date"]{
+    margin-top: 10;
+}
+.account select{
+font-size: 13px;
+height: 30px;
+padding: 5px;
+margin-bottom: 10px;
+margin-top: 10px
+}
+.account .l{
+    margin-top: 12px;
+    margin-right: 116px;
+    font-size: 11px;
+    max-width: 150px;
+    text-decoration: none;
+    float: right;
+    color: #365899;
+}
+.account p{
+    font-size: 12px;
+    color:#777
+}
+.account p a{
+    color: #365899;
+}
+.account input[type="submit"]{
+    font-size: 19px;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    font-weight: bold ;
+    background-color: #69a74e;
+    color: white;
+    padding: 11px 70px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+}
+.account .s{
+    text-decoration: none
+}
+/* /main */
+/* footer */
+footer{
+    margin:auto;
+    height: 39px;
+    color: #777
+}
