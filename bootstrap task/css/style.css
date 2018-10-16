@@ -1,0 +1,427 @@
+body{
+    padding-top:70px;
+   
+
+ 
+}
+h1,h2,h3,h4,h5,p{font-family: "Droid Sans"}
+.navbar{min-height: 70px;}
+
+
+
+ .navbar-inverse .navbar-nav > li > a{
+     color:#AAA;
+     padding-top: 25px;
+     padding-bottom: 25px;
+     font-size: 16px
+ }
+ .navbar-inverse .navbar-brand{
+     color:#AAA;
+     font-size: 30px;
+     line-height: 40px;
+ }
+
+ .navbar-inverse .navbar-toggle{margin-top: 17px;
+ }
+ .dropdown-menu {background-color:#333;min-width: 200px;}
+ .navbar-right .dropdown-menu{left:0
+ }
+ .dropdown-menu > li > a {
+     color:#fff;
+     padding: 6px 20px;
+     -webkit-transition: padding 0.5s ease;
+     -moz-transition:padding 0.5s ease;
+     -o-transition: padding 0.5s ease;
+     transition: padding 0.5s ease;
+ }
+ .dropdown-menu > li > a:hover,
+  .dropdown-menu > li > a:focus{
+    color:#FFF;
+    padding-left:30px
+  }
+  .dropdown-menu .divider{background-color:#871818}
+  .img-responsive, .thumbnail > img, .thumbnail a > img,
+   .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img{width: 100%}
+  .carousel-caption{
+      bottom: 95px;
+      padding:0 20px;
+      background:rgba(3,3,3,0.3)
+  }
+  .carousel-indicators {bottom: 0}
+  .carousel-indicators li
+ {
+      height: 15px;
+      width: 15px;
+      border:1px solid #EEE;
+  }
+  .carousel-indicators .active{height: 17px;width: 17px;}
+  
+  /* End overriding BootStrap */
+  /* Start section tool box */
+  .option-box{
+      position: fixed;
+      top:100px;
+      left: 0;
+      z-index: 9999;
+    
+  }
+  .option-box .color-option{
+      float:left;
+      background:#333;
+      color:#FFF;
+      padding: 10px;
+      width:200px;
+      display: none
+  }
+  .option-box .color-option ul li{
+      width: 20px;
+      height:20px;
+      display: inline-block;
+      margin-right:3px;
+      cursor: pointer
+    
+  }
+  .option-box .gear-check{
+      padding:4px;
+      color: #FFF;
+      cursor: pointer;
+  }
+  /* End section tool box */
+  /* Start About */
+  .about{padding-top: 60px;padding-bottom: 60px}
+
+
+  .about h1{font-weight: bold}
+  .about p{color:#888}
+  
+  /* End About */
+  /* Start section features */
+ 
+  .features{padding:50px 0;background-color:#EEE}
+  .features .feat {
+      margin-bottom: 30px
+  }
+  .features .feat p{line-height: 2em}
+  .features .feat span.glyphicon
+  {
+      font-size: 22px;
+      margin-bottom: 10px;
+      color: #666
+  }
+  /* End section features */
+  /* Start Testimonials */
+  .testimonials{padding:50px 0;}
+  .testimonials .lead{line-height: 2em;margin-bottom: 10px}
+  .testimonials  span{font-size: 18px;font-weight: bold;} 
+
+  .testimonials .carousel-inners{min-height: 160px}
+  .testimonials .carousel-indicators{
+      position: static;
+      margin-left: 0;
+      width: 100%;
+      padding-top: 20px
+  }
+ .testimonials .carousel-indicators li{
+     text-indent: 0;
+     width: 80px;
+     height: 80px;
+     opacity: 0.5;
+     border:2px solid #fff;
+     overflow: hidden;
+     margin: 5px;
+   
+ }
+ .testimonials .carousel-indicators li.active{
+     opacity:1;
+     background-color: transparent;
+     border-radius: 50%;
+     width: 80px;
+     height: 80px;
+     
+ }
+ .testimonials .carousel-indicators li img{max-width: 100%;}
+   /* End Testimonials */
+   /* Start Section price table */
+    .price-table{background:#EEE;padding:40px 0;overflow: hidden;}
+
+ .price-table .price-box{
+     background: #fff;
+     padding: 10px;
+     border: 1px solid #DDD;
+     margin: 15px
+ }
+ .price-table .price-box h2{margin:5px 0 15px 0;}
+ .price-table .price-box:hover span{
+    -webkit-transform: scale(1.1,1.1)rotate(360deg);
+    -moz-transform: scale(1.1,1.1)rotate(360deg);
+    -o-transform: scale(1.1,1.1)rotate(360deg);
+    transform: scale(1.1,1.1)rotate(360deg);
+    border:2px solid #dfdfdf
+ }
+ .price-table .price-box span{
+     font-size: 35px;
+     font-weight: bold;
+     color:#666;
+     width: 100px;
+     height: 100px;
+     background:#f3f3f3;
+     border-radius: 50%;
+     line-height: 100px;
+     border:2px solid #fff;
+     -webkit-transition-duration:0.7s;
+    -o-transition-duration:0.7s;
+     -moz-transition-duration:0.7s;
+     transition-duration:0.7s;
+
+ }
+ .price-table .price-box ul{line-height: 250%;font-size: 18px;}
+ .price-table .price-box a{margin-bottom: 5px}
+   /* End section pricetable */
+   /* Start ourteam */
+   .ourteam{background:url('..//images/as-team.jpg') no-repeat center center fixed;min-height: 600px}
+
+   
+   .ourteam .team{
+       background:rgba(2,2,2,0.8);
+       color:#fff;
+       min-height: 600px;
+       padding:40px 0;
+   }
+   .ourteam .person {margin-bottom: 40px}
+   .ourteam .person i{padding-right: 3px}
+   /* End our team */
+   /* Start subscribe */
+   .subscribe{
+       padding-top: 40px;
+       padding-bottom: 70px;
+       background: #eee
+   }
+   .subscribe .h1{
+       color:#888;
+       letter-spacing: 2px;
+       margin-bottom: 20px
+   }
+   .subscribe p{margin-bottom: 30px}
+   .subscribe .form-control{
+       border-radius:0;
+       margin-right: -5px;
+       width: 300px
+   }
+   .subscribe button{border-radius: 0}
+   
+   /* End subscribe */
+   /* Start stats */
+   .statistics{
+       background:url('../images/laptop.jpg') no-repeat center center fixed;min-height: 300px}
+   .statistics .data{
+       background: rgba(2,2,2,0.8);
+       color: #B6B5B5;
+       min-height: 300px;
+       padding-top: 40px;
+       padding-bottom: 70px
+   }
+   .statistics .stats{margin-bottom: 30px}
+   .statistics .stats:hover{color: #fff}
+   .statistics p{
+       font-size: 60px;
+       font-weight: 800;
+       margin-bottom: 0
+   }
+   .statistics span{font-size: 18px}
+   /* End stats */
+   /* Start ourskills */
+   .our-skills{padding-top: 40px;padding-bottom: 60px}
+ 
+   .our-skills h3{margin-top: 0;font-weight: 600}
+   .our-skills .progress{height: 36px;}  
+   
+   .our-skills .progress .progress-bar{
+       line-height: 36px;
+       text-align: left;
+       text-indent:10px;
+       font-weight: bold
+   }
+   /* End our skills */
+   /* sTART Contact US */
+   .contact-us{background:url('../images/contactus_header.jpg') no-repeat center center fixed;min-height: 300px}
+   .contact-us .feilds{
+       background: rgba(9,9,9,0.6);
+       min-height: 300px;
+       color: #ddd;
+       padding-top:40px;
+       padding-bottom: 40px
+   }
+   .contact-us .feilds p{margin-bottom: 40px}
+   .feilds textarea{height: 108px;}
+   .feilds input[type="text"],
+   .feilds textarea{
+       background: rgba( 82, 78, 78,0.7);
+       color: #FFF;
+       border: none
+   }
+   /* End contatct us */
+   /* Start our clients */
+   .our-clients{
+       background: #EEE;
+       padding-top: 20px;
+       padding-bottom: 20px
+   }
+   .our-clients img{
+       opacity: 0.4;
+        margin-top: 20px;
+        margin-bottom: 20px;
+     
+   }
+   .our-clients img:hover{opacity: 1;}
+   /* end our clints */
+   /* start footer */
+   footer{
+       background: #111;
+       color: #AAA;
+       padding-top: 10px;
+      
+   }
+   footer a{color: #AAA;}
+   footer a:hover{color:#FFF;}
+   footer h3{  letter-spacing: 1px;margin:30px 0 20px; }
+  
+   footer .three-columns{ overflow: hidden }
+  
+   footer .three-columns li{
+       width: 33.3333%;
+       float: left;
+       padding:5px 0
+   }
+   footer .social-list{ overflow: hidden;margin:20px 0 10px}
+
+   footer .social-list li{
+    float: left;
+    margin-right: 3px;
+    opacity:0.7;
+
+   }
+   footer .social-list li:hover{opacity: 1; }
+ 
+   footer .img-thumbnail{
+       background:rgba(0,0,0,0.2);
+       border: 1px solid #444;
+       margin-bottom: 5px
+   }
+   footer .copyright{
+       background: #333;
+       color:#AAA;
+       padding: 15px 0;
+       margin-top: 30px;
+       font-size: 18px
+   }
+ 
+   /* end footer */
+   /* Start loading overlay */
+   .loading-overlay{
+         background: #222;
+        color: #FFF;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index:9999
+   }
+   .spinner {
+  margin: 300px auto;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  text-align: center;
+  
+  -webkit-animation: sk-rotate 2.0s infinite linear;
+  animation: sk-rotate 2.0s infinite linear;
+}
+
+.dot1, .dot2 {
+  width: 60%;
+  height: 60%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  background-color: #FFF;
+  border-radius: 100%;
+  
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.dot2 {
+  top: auto;
+  bottom: 0;
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
+@keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+   /* End loading overlay */
+  
+
+   /* Start scroll up  */
+   #scroll-top{
+       width: 50px;
+       height: 40px;
+      text-align: center;
+       color:#DDD;
+       position: fixed;
+       right: 15px;
+       bottom: 10px;
+       z-index: 99999;
+       display: none;
+       cursor: pointer  
+   }
+   #scroll-top:hover{background-color:#444}
+
+   /* End scroll up */
+   /* Start our grouping system */
+   .contact-us,
+   .statistics,
+   .ourteam{
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+   }
+   .features .h1,
+   .testimonials .h1,
+   .price-table .h1,
+   .ourteam .h1,
+   .statistics .h1,
+   .our-skills  .h1
+   {
+       margin-bottom:50px
+   }
+   footer .social-list li,
+   .our-clients img,
+   .statistics .stats,
+   .testimonials .carousel-indicators li,
+
+
+{
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out; 
+}
